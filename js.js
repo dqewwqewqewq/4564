@@ -11,7 +11,9 @@ function validateform(){
       return false;  
       }else if(isNaN(password) || isNaN("")){
           alert("Please enter number");
-          return false;
+          return false;/*Marco Xiang enyu：ThisJavaScript defines the attribute of four spaces, 
+          and will remind the user to fill in when the user has not completed the information, 
+          and remind the user whether the text or number entered is compliant.After completion, the mailbox selection will pop up */
       }
     } 
    
